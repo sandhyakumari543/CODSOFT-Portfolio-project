@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="ind.css">
+    <link rel="stylesheet" href="intro.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="slidebar slidebargo">
+            <nav>
+
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <!-- <li><a href="/resume.html">Resume</a></li> -->
+                    <li><a href="/blog.html">Blog</a></li>
+                    <!-- <li><a href="/contact1.html">Contact Me</a></li> -->
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="black cross.png" alt="" width="23px">
+                <img class="cross" src="blackcross.png" alt="" width="23px">
+            </div>
+            <div class="intro">
+                <p style="font-size: 55px; color: #476481;">About me</p>
+                <div class="aboutme">
+                    <p>
+                        Hey there! I'm Sandhya Kumari, originally Pune. I recently graduated in 2023 with a
+                        BCA degree, securing an impressive 84.3%.
+
+                    </p>
+                    <p id="additional-info" class="hidden">
+                        During my academic journey, I've not only excelled in studies but also explored the world of
+                        technology through practical experiences. I had the opportunity to intern in data analytics at
+                        CloudyML, where I honed my analytical skills and applied theoretical knowledge to real-world
+                        scenarios.
+                        <br>
+                        <br>
+                        Besides academics and tech, I have a creative side. I've delved into various projects, including
+                        coding and web development. One of my notable projects is the portfolio you're currently
+                        exploring!
+                        It's a culmination of my skills, showcasing what I've learned and accomplished.
+                        <br>
+                        <br>
+                        When I'm not coding or analyzing data, you can find me exploring new destinations. Traveling is
+                        my
+                        passion, and it allows me to experience diverse cultures, cuisines, and landscapes. I'm also an
+                        avid
+                        painter, always eager to put my creativity on canvas.
+                        <br>
+                        <br>
+                        I believe in continuous learning, and that's not just limited to the technical realm. Learning
+                        new
+                        things, be it a coding language or a painting technique, excites me. It's this curiosity and
+                        passion
+                        that drive me to excel in every aspect of life.
+                        <br>
+                        <br>
+                        Let's connect and create something amazing together! If you're interested in my portfolio,
+                        you're
+                        already on the right track. Feel free to explore my projects, and I'm open to any collaboration
+                        or
+                        feedback!
+                    </p>
+                    <button class="read-more-btn" onclick="toggleReadMore()">Read More</button>
+                </div>
+                <p style="font-size: 55px; color: #476481;">My Skills</p>
+                <div class="skill-container">
+                    <div class="image-skill">
+                        <img src="view.jpg" alt="" style="width: 30vw; height: 40vh; border-radius: 18px;" />
+                    </div>
+                    <div class="text-skills">
+                        <p style="font-size: 54px; margin: 0; font-family: 'Source Code Pro';">What I do</p>
+                        <p>CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK</p>
+                        <div>
+                            <img src="image/htmlsy.png" alt="" style="width: 10%;" />
+                            <img src="image/css.png" alt="" style="width: 10%;" />
+                            <img src="image/javascript.png" alt="" style="width: 10%;" />
+                            <img src="image/react.png" alt="" style="width: 10%;" />
+                            <img src="image/mysql.png" alt="" style="width: 10%;" />
+                        </div>
+                        <div class="skillList">
+                            <p>Develop highly interactive Front end/User interface for your web.</p>
+                            <p>Implement dynamic content that updates in real-time, providing a more engaging experience
+                                for users.</p>
+                            <p>Include interactive components like sliders, carousels, accordions, and modals to make
+                                the interface dynamic and engaging.</p>
+                            <p>Implement theming and styling techniques to allow users to personalize the appearance of
+                                the interface.</p>
+                            <p>Use state management libraries (e.g., Redux for React) to efficiently manage the state of
+                                your application and enable seamless data flow.</p>
+                            <p>Provide clear and user-friendly error messages to guide users in case of input errors or
+                                system issues.</p>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div class="container1">
+                    <div class="container-contactText">
+                        <p style="font-size: 55px; color: #476481;">Profiency</p>
+                        <div class="skillItem">Frontend/Design:
+                            <div class="skill-hundred" style="box-shadow: 3px 3px 3px 3px rgb(199, 250, 250);"></div>
+                        </div>
+                        <br />
+                        <div class="skillItem">Backend:
+                            <div class="skill-twenty-five" style="box-shadow: 3px 3px 3px 3px rgb(199, 250, 250);">
+                            </div>
+                        </div>
+                        <br />
+                        <div class="skillItem">Programming:
+                            <div class="skill-seventy" style="box-shadow: 3px 3px 3px 3px rgb(199, 250, 250);"></div>
+                        </div>
+                    </div>
+                    <div class="container-contactImage">
+                        <img src="profiency.jpg" alt="" style="width: 30vw; margin-top: 40px;" />
+                    </div>
+                </div>
+
+                <br><br><br><br>
+                <p style="font-size: 55px; color: #476481;">My Projects</p>
+                <div class="container container-project" id="projects-container"></div>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <p>&copy; 2023 My portfolio. All rights reserved.</p>
+    </footer>
+    <script src="intro.js">
+
+    </script>
+    <script src="about.js"> </script>
+    <script src="ind.js"></script>
+</body>
+
+</html>

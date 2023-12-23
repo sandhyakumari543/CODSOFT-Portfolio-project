@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="ind.css">
+    <link rel="stylesheet" href="resume.css">
+    <script src="resume.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.0/html2pdf.bundle.js"></script>
+
+    <style>
+        .slidebar {
+        position: fixed;
+    }
+    .hamburger {
+        position: fixed;
+    }
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="slidebar slidebargo">
+            <!-- Sandhya -->
+            <nav>
+
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <!-- <li><a href="/service.html">Resume</a></li> -->
+                    <li><a href="/blog.html">Blog</a></li>
+                    <!-- <li><a href="/contact1.html">Contact Me</a></li> -->
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="black cross.png" alt="" width="23px">
+                <img class="cross" src="blackcross.png" alt="" width="23px">
+            </div>
+
+            <div class="resume" id="myResume">
+                <div class="left-side">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="sandhya.jpg" alt="Profile Photo"/>
+                        </div>
+                        <h1 class="name">Sandhya Kumari</h1>
+                        <p class="title">Fresher</p>
+                    </div>
+                    <div class="contact padding-top-bg">
+                        <h1 class="heading-primary-white">Contact</h1>
+                        <div class="info-box padding-top-sm">
+                            <div class="info-title">Phone</div>
+                            <div class="info">
+                                <a href="tel:+880 1765923094">+880 1765923094</a>
+                            </div>
+                        </div>
+                        <div class="info-box padding-top-sm">
+                            <div class="info-title">Email</div>
+                            <div class="info">
+                                <a href="mailto:alaminhimu0@gmail.com">sandhyaKumari.com</a>
+                            </div>
+                        </div>
+                        <div class="info-box padding-top-sm">
+                            <div class="info-title">Address</div>
+                            <div class="info">Pune</div>
+                        </div>
+                    </div>
+                    <div class="education padding-top-bg">
+                        <h1 class="heading-primary-white">Education</h1>
+                        <div class="info-box padding-top-sm">
+                            <div class="info">2023</div>
+                            <div class="info-title">Bachelor of Computer Application</div>
+                            <div class="info">Collectorate School & College</div>
+                        </div>
+                        <div class="info-box padding-top-sm">
+                            <div class="info">2020</div>
+                            <div class="info-title">Secondary School Certificate</div>
+                            <div class="info">Kishoregonj M.L Model High School</div>
+                        </div>
+                        <div class="info-box padding-top-sm">
+                            <div class="info">2018</div>
+                            <div class="info-title">Junior School Certificate</div>
+                            <div class="info">Uttor Durakuti High School</div>
+                        </div>
+                    </div>
+                    <div class="expertise padding-top-bg">
+                        <h1 class="heading-primary-white">Skills</h1>
+                        <div class="skill padding-top-sm">
+                            <span></span>
+                            <div class="skill-name">Frontend Developer</div>
+                        </div>
+                        <div class="skill padding-top-sm">
+                            <span></span>
+                            <div class="skill-name">React.js</div>
+                        </div>
+                        <div class="skill padding-top-sm">
+                            <span></span>
+                            <div class="skill-name">JavaScript</div>
+                        </div>
+                        <div class="skill padding-top-sm">
+                            <span></span>
+                            <div class="skill-name">Html</div>
+                        </div>
+                        <div class="skill padding-top-sm">
+                            <span></span>
+                            <div class="skill-name">Css</div>
+                        </div>
+                    </div>
+                    <div class="language padding-top-bg">
+                        <h1 class="heading-primary-white">Language</h1>
+                        <div class="info-box padding-top-sm">
+                            <div class="lang-box">
+                                <p class="info-title">English</p>
+                                <span class="percent"><div style="width: 70%"></div></span>
+                            </div>
+                            <div class="lang-box">
+                                <p class="info-title">Hindi</p>
+                                <span class="percent"><div style="width: 90%"></div></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="about-me padding-top-bg">
+                        <h1 class="heading-primary-black">About Me</h1>
+                        <p class="discription">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laboriosam aspernatur minima voluptatum? Hic quod dolore harum doloremque culpa ullam velit molestiae consequatur deserunt repellendus nam temporibus error provident earum corrupti est voluptatem ut iusto, voluptatum, ipsam voluptatibus perspiciatis accusantium!
+                        </p>
+                    </div>
+                    <div class="experience padding-top-bg">
+                        <h1 class="heading-primary-black">Projects</h1>
+                        <div class="xp-box padding-top-sm">
+                            <p class="xp-company">Project Name</p>
+                            <p class="xp-position">Technology used:</p>
+                            <p class="discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, sequi quam excepturi dolores facere illum aut reiciendis nemo explicabo praesentium facilis autem quae rem nulla aperiam repudiandae fugiat assumenda delectus aliquam asperiores? Ea rerum at odit ducimus quidem placeat, quasi expedita, voluptatibus quas quod, alias repellendus eius recusandae eos fuga quam dolorum numquam dolor omnis mollitia provident! Dicta repellendus neque voluptatibus eligendi obcaecati eum tempora, nobis nisi cum, eaque laborum?</p>
+                        </div>
+                        <div class="xp-box padding-top-sm">
+                            <p class="xp-company">Project Name</p>
+                            <p class="xp-position">Technology Used:</p>
+                            <p class="discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis corrupti ratione voluptas adipisci ex. Voluptate vel voluptatum autem illum vero eveniet atque quo. Similique ducimus alias tempore voluptas odit nulla laudantium id neque adipisci eos? Natus illum earum odio nihil repellat cum reiciendis delectus quas neque iste deserunt tempora molestias sapiente, nobis numquam eligendi praesentium vel possimus voluptate eum aspernatur sequi. Placeat, aspernatur! Similique voluptatum nesciunt libero dolorem veritatis earum.</p>
+                        </div>
+                        <div class="internship padding-top-bg">
+                            <h1 class="heading-primary-black">Internship</h1>
+                            <div class="xp-box padding-top-sm">
+                                <p class="xp-year">20-06-23 to 20-08-23</p>
+                                <p class="xp-company">Company name | 123 Anywhere, City Name</p>
+                                <p class="xp-position">Project Name</p>
+                                <p class="discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, sequi quam excepturi dolores facere illum aut reiciendis nemo explicabo praesentium facilis autem quae rem nulla aperiam repudiandae fugiat assumenda delectus aliquam asperiores? Ea rerum at odit ducimus quidem placeat, quasi expedita, voluptatibus quas quod, alias repellendus eius recusandae eos fuga quam dolorum numquam dolor omnis mollitia provident! Dicta repellendus neque voluptatibus eligendi obcaecati eum tempora, nobis nisi cum, eaque laborum?</p>
+                            </div>   
+                        </div>
+
+                       
+                     <div class="declare padding-top-bg">
+                        <h1 class="heading-primary-black">Declaration</h1>
+                        <p  class="discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, corporis! Quae, doloremque voluptatem. Iure nam commodi maiores provident exercitationem id et possimus numquam neque aliquid! Quidem veniam officiis fugit fuga.</p>
+                     </div>
+                </div>
+            </div>
+        </div>
+        <button   class="btn" id="download">download Pdf</button>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023  My portfolio. All rights reserved.</p>
+    </footer>
+    <script src="ind.js"></script>
+</body>
+
+</html>

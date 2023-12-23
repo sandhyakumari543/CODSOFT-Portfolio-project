@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slidebar {
+    background-color: rgb(225, 219, 219);
+    position: fixed;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+    transition: transform 0.3s ease-in;
+}
+.hamburger {
+    position: fixed;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+
+
+
+.skill-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.image-skill img {
+    width: 30vw;
+    height: 30vh;
+    border-radius: 18px;
+}
+
+.text-skills {
+    max-width: 60%;
+}
+
+.text-skills p {
+    margin: 10px 0;
+}
+
+.skillList {
+    line-height: 1.6;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.container-contactText {
+    max-width: 60%;
+}
+
+.skillItem {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.skill-hundred,
+.skill-twenty-five,
+.skill-seventy {
+    width: 100%;
+    height: 20px;
+    background-color: #3498db;
+}
+
+.skill-twenty-five {
+    width: 25%;
+    background-color: #e74c3c;
+}
+
+.skill-seventy {
+    width: 70%;
+    background-color: #2ecc71;
+}
+
+.container-contactImage img {
+    width: 30vw;
+    margin-top: 40px;
+}
+
+hr {
+    margin-top: 20px;
+    border: 0.5px solid #ccc;
+}
+
+.container-project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-card {
+    width: 45%;
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: rgb(217, 250, 250);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
